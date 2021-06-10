@@ -1,0 +1,42 @@
+.layout {
+    padding: 1.5rem 1.75rem;
+    position: relative;
+    background-color: #e5e5e5;
+    min-height: 100vh;
+}
+
+.chart-container {
+    display: flexbox;
+    align-items: center;
+    margin-top: 1.75rem;
+    width: 100%;
+}
+
+.table-container {
+    margin-top: 1.5rem;
+}
+
+.chart-box {
+    min-height: 20rem;
+    width: 100%;
+    margin-bottom: 1.5rem;
+    border-radius: 1rem;
+    padding: 1.5rem;
+    background-color: #ffffff;
+}
+
+.chart-box > header {
+    font-size: 1.25rem;
+    margin-bottom: 1.25rem;
+}
+
+@media (min-width: 961px) {
+    .chart-box {
+        width: 49%;
+        margin-bottom: 1.5rem;
+    }
+    .chart-container {
+        display: flex;
+        justify-content: space-between;
+    }
+}
